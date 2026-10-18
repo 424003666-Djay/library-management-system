@@ -46,3 +46,7 @@ The source code is maintained in GitHub:
 https://github.com/424003666-Djay/library-management-system
 
 GitHub Issues are used to document identified problems. Branches, pull requests, and peer reviews should be documented only when they have actually been performed.
+
+## Issue Tracking
+
+Known issues are documented using GitHub Issues. GitHub Issue #1 records the book issuance error encountered during local testing. The issue remains open until the cause is investigated, the problem is addressed, and the application is retested.
