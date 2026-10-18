@@ -50,3 +50,73 @@ GitHub Issues are used to document identified problems. Branches, pull requests,
 ## Issue Tracking
 
 Known issues are documented using GitHub Issues. GitHub Issue #1 records the book issuance error encountered during local testing. The issue remains open until the cause is investigated, the problem is addressed, and the application is retested.
+
+## Team Members
+
+Rivera, Bhea R.
+Omar, Alicia May T.
+Delave Jr., Jonathan P.
+Mariñas, Jhonj V.
+
+**Contribution Note:** The project is maintained as a team project. Individual contributions should be documented based on the actual work completed by each member.
+
+## Technology Versions
+
+- Python: Verify using `python --version`.
+- Django: Verify using `python -m django --version`.
+- Database: SQLite.
+- Operating environment: Local development on Windows.
+
+Record the actual version numbers from the development environment before final submission.
+
+## Prerequisites
+
+- Python installed on the computer.
+- The project source code.
+- A terminal and a web browser.
+- The project's virtual environment and required dependencies, if available.
+
+## Database Setup
+
+From the directory containing `manage.py`, run:
+
+```bash
+python manage.py migrate
+```
+
+This applies the project's database migrations. Use fictional sample data only when preparing demonstration records.
+
+## Running Tests
+
+From the directory containing `manage.py`, run:
+
+```bash
+python manage.py test library
+```
+
+Record the actual test results after running the command. Do not report tests as passed unless they complete successfully.
+
+## Environment Configuration
+
+No `.env.example` configuration has been verified for this project. If the application requires environment variables, provide an `.env.example` file containing dummy values only. Never commit real passwords, tokens, or secrets.
+
+## Local Execution
+
+Start the development server:
+
+```bash
+python manage.py runserver
+```
+
+Open `http://127.0.0.1:8000/` in a browser. This is a local development address, not a public deployment URL.
+
+## Version and Known Limitations
+
+- Project version: 0.1.0 (documentation label; verify whether an official version has been assigned).
+- The book issuance function has a known error documented in GitHub Issue #1.
+- The cause has not yet been resolved and the function has not been successfully retested.
+- Public deployment has not been verified.
+
+## Usage and License
+
+No project license has been verified or specified in this README. Confirm the intended license before permitting reuse or redistribution.
